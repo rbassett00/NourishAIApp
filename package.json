@@ -1,0 +1,12 @@
+{
+  "name": "nourish-v2-preconception",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Prototype: AI preconception nutrition companion (12-week prep before trying to conceive)",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test tests/logic.test.js"
+  },
+  "engines": { "node": ">=20" }
+}

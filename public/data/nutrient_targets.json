@@ -1,0 +1,21 @@
+{
+  "nutrients": [
+    { "key": "folate",    "label": "Folate",        "unit": "mcg", "daily": 400,  "note": "Food + folic acid, as DFE" },
+    { "key": "iron",      "label": "Iron",          "unit": "mg",  "daily": 18,   "note": "Builds stores before blood volume rises" },
+    { "key": "iodine",    "label": "Iodine",        "unit": "mcg", "daily": 150,  "note": "Thyroid and early brain development" },
+    { "key": "choline",   "label": "Choline",       "unit": "mg",  "daily": 425,  "note": "The nutrient most often low" },
+    { "key": "dha",       "label": "DHA / omega-3", "unit": "mg",  "daily": 250,  "weekly": true, "note": "DHA is an omega-3 fat found mostly in fish. Because most people get it from fish 2–3 times a week rather than every day, this bar adds up the past 7 days and compares it to a weekly target of 1,750 mg (250 mg a day)." },
+    { "key": "calcium",   "label": "Calcium",       "unit": "mg",  "daily": 1000 },
+    { "key": "vitamin_d", "label": "Vitamin D",     "unit": "IU",  "daily": 600 },
+    { "key": "protein",   "label": "Protein",       "unit": "g",   "per_kg": 0.8, "floor": 46, "note": "Based on your weight (or 46 g if weight is blank)" },
+    { "key": "b12",       "label": "Vitamin B12",   "unit": "mcg", "daily": 2.4 },
+    { "key": "fiber",     "label": "Fiber",         "unit": "g",   "daily": 25 },
+    { "key": "water",     "label": "Water",         "unit": "L",   "daily": 2.7,  "glass_l": 0.25 }
+  ],
+  "limits": [
+    { "key": "caffeine", "label": "Caffeine",            "unit": "mg",  "max": 200,  "amber": 150 },
+    { "key": "retinol",  "label": "Preformed vitamin A", "unit": "mcg", "max": 3000, "amber": 2000 }
+  ],
+  "folic_acid_mcg": 400,
+  "activity": { "weekly_minutes": 150, "strength_days": 2, "vigorous_multiplier": 2, "high_vigorous_minutes": 300 }
+}
